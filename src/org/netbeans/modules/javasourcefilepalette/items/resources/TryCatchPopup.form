@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="varPane" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jTextField1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                  <Component id="varPane" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+              <ResourceString bundle="org/netbeans/modules/javasourcefilepalette/items/resources/Bundle.properties" key="TryCatchPopup.jLabel1.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Properties>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+              <ResourceString bundle="org/netbeans/modules/javasourcefilepalette/items/resources/Bundle.properties" key="TryCatchPopup.jTextField1.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="varPane">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Try/Catch">
+                  <ResourceString PropertyName="titleX" bundle="org/netbeans/modules/javasourcefilepalette/items/resources/Bundle.properties" key="TryCatchPopup.varPane.border.title" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+              <ResourceString bundle="org/netbeans/modules/javasourcefilepalette/items/resources/Bundle.properties" key="TryCatchPopup.varPane.toolTipText" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="excType" min="-2" pref="325" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel33" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="429" max="-2" attributes="0"/>
+                      <Component id="tcButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel33" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="excType" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="10" max="32767" attributes="0"/>
+                      <Component id="tcButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JComboBox" name="excType">
+              <Properties>
+                <Property name="editable" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="115">
+                    <StringItem index="0" value="AWTException"/>
+                    <StringItem index="1" value="AclNotFoundException"/>
+                    <StringItem index="2" value="ActivationException"/>
+                    <StringItem index="3" value="AlreadyBoundException"/>
+                    <StringItem index="4" value="ApplicationException"/>
+                    <StringItem index="5" value="ArithmeticException"/>
+                    <StringItem index="6" value="ArrayIndexOutOfBoundsException"/>
+                    <StringItem index="7" value="AssertionException"/>
+                    <StringItem index="8" value="BackingStoreException"/>
+                    <StringItem index="9" value="BadAttributeValueExpException"/>
+                    <StringItem index="10" value="BadBinaryOpValueExpException"/>
+                    <StringItem index="11" value="BadLocationException"/>
+                    <StringItem index="12" value="BadStringOperationException"/>
+                    <StringItem index="13" value="BatchUpdateException"/>
+                    <StringItem index="14" value="BrokenBarrierException"/>
+                    <StringItem index="15" value="CertificateException"/>
+                    <StringItem index="16" value="ChangedCharSetException"/>
+                    <StringItem index="17" value="CharConversionException"/>
+                    <StringItem index="18" value="CharacterCodingException"/>
+                    <StringItem index="19" value="ClassNotFoundException"/>
+                    <StringItem index="20" value="CloneNotSupportedException"/>
+                    <StringItem index="21" value="ClosedChannelException"/>
+                    <StringItem index="22" value="DataFormatException"/>
+                    <StringItem index="23" value="DatatypeConfigurationException"/>
+                    <StringItem index="24" value="DestroyFailedException"/>
+                    <StringItem index="25" value="EOFException"/>
+                    <StringItem index="26" value="Exception"/>
+                    <StringItem index="27" value="ExecutionException"/>
+                    <StringItem index="28" value="ExpandVetoException"/>
+                    <StringItem index="29" value="FileLockInterruptionException"/>
+                    <StringItem index="30" value="FileNotFoundException"/>
+                    <StringItem index="31" value="FishFaceException"/>
+                    <StringItem index="32" value="FontFormatException"/>
+                    <StringItem index="33" value="GSSException"/>
+                    <StringItem index="34" value="GeneralSecurityException"/>
+                    <StringItem index="35" value="IIOException"/>
+                    <StringItem index="36" value="IOException"/>
+                    <StringItem index="37" value="IllegalAccessException"/>
+                    <StringItem index="38" value="IllegalArgumentException"/>
+                    <StringItem index="39" value="IllegalClassFormatException"/>
+                    <StringItem index="40" value="IllegalStateException"/>
+                    <StringItem index="41" value="IndexOutOfBoundsException"/>
+                    <StringItem index="42" value="InputMismatchException"/>
+                    <StringItem index="43" value="InstantiationException"/>
+                    <StringItem index="44" value="InterruptedException"/>
+                    <StringItem index="45" value="InterruptedIOException"/>
+                    <StringItem index="46" value="IntrospectionException"/>
+                    <StringItem index="47" value="InvalidApplicationException"/>
+                    <StringItem index="48" value="InvalidMidiDataException"/>
+                    <StringItem index="49" value="InvalidPreferencesFormatException"/>
+                    <StringItem index="50" value="InvalidTargetObjectTypeException"/>
+                    <StringItem index="51" value="InvocationTargetException"/>
+                    <StringItem index="52" value="JAXBException"/>
+                    <StringItem index="53" value="JMException"/>
+                    <StringItem index="54" value="KeySelectorException"/>
+                    <StringItem index="55" value="LastOwnerException"/>
+                    <StringItem index="56" value="LineUnavailableException"/>
+                    <StringItem index="57" value="MalformedURLException"/>
+                    <StringItem index="58" value="MarshalException"/>
+                    <StringItem index="59" value="MidiUnavailableException"/>
+                    <StringItem index="60" value="MimeTypeParseException"/>
+                    <StringItem index="61" value="NamingException"/>
+                    <StringItem index="62" value="NegativeArraySizeException"/>
+                    <StringItem index="63" value="NoSuchElementException"/>
+                    <StringItem index="64" value="NoSuchFieldException"/>
+                    <StringItem index="65" value="NoSuchMethodException"/>
+                    <StringItem index="66" value="NoninvertibleTransformException"/>
+                    <StringItem index="67" value="NotBoundException"/>
+                    <StringItem index="68" value="NotOwnerException"/>
+                    <StringItem index="69" value="NullPointerException"/>
+                    <StringItem index="70" value="NumberFormatException"/>
+                    <StringItem index="71" value="ObjectStreamException"/>
+                    <StringItem index="72" value="ParseException"/>
+                    <StringItem index="73" value="ParserConfigurationException"/>
+                    <StringItem index="74" value="PrintException"/>
+                    <StringItem index="75" value="PrinterException"/>
+                    <StringItem index="76" value="PrivilegedActionException"/>
+                    <StringItem index="77" value="PropertyVetoException"/>
+                    <StringItem index="78" value="ProtocolException"/>
+                    <StringItem index="79" value="RefreshFailedException"/>
+                    <StringItem index="80" value="RemarshalException"/>
+                    <StringItem index="81" value="RemoteException"/>
+                    <StringItem index="82" value="RuntimeException"/>
+                    <StringItem index="83" value="SAXException"/>
+                    <StringItem index="84" value="SOAPException"/>
+                    <StringItem index="85" value="SQLException"/>
+                    <StringItem index="86" value="SQLWarning"/>
+                    <StringItem index="87" value="SSLException"/>
+                    <StringItem index="88" value="ScriptException"/>
+                    <StringItem index="89" value="ServerNotActiveException"/>
+                    <StringItem index="90" value="SocketException"/>
+                    <StringItem index="91" value="SyncFailedException"/>
+                    <StringItem index="92" value="TimeoutException"/>
+                    <StringItem index="93" value="TooManyListenersException"/>
+                    <StringItem index="94" value="TransformException"/>
+                    <StringItem index="95" value="TransformerException"/>
+                    <StringItem index="96" value="URIReferenceException"/>
+                    <StringItem index="97" value="URISyntaxException"/>
+                    <StringItem index="98" value="UTFDataFormatException"/>
+                    <StringItem index="99" value="UnknownHostException"/>
+                    <StringItem index="100" value="UnknownServiceException"/>
+                    <StringItem index="101" value="UnmodifiableClassException"/>
+                    <StringItem index="102" value="UnsupportedAudioFileException"/>
+                    <StringItem index="103" value="UnsupportedCallbackException"/>
+                    <StringItem index="104" value="UnsupportedEncodingException"/>
+                    <StringItem index="105" value="UnsupportedFlavorException"/>
+                    <StringItem index="106" value="UnsupportedLookAndFeelException"/>
+                    <StringItem index="107" value="UnsupportedOperationException"/>
+                    <StringItem index="108" value="UserException"/>
+                    <StringItem index="109" value="XAException"/>
+                    <StringItem index="110" value="XMLParseException"/>
+                    <StringItem index="111" value="XMLSignatureException"/>
+                    <StringItem index="112" value="XMLStreamException"/>
+                    <StringItem index="113" value="XPathException"/>
+                    <StringItem index="114" value="ZipException"/>
+                  </StringArray>
+                </Property>
+                <Property name="selectedIndex" type="int" value="-1"/>
+                <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                  <ResourceString bundle="org/netbeans/modules/javasourcefilepalette/items/resources/Bundle.properties" key="TryCatchPopup.excType.toolTipText" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                  <ResourceString bundle="org/netbeans/modules/javasourcefilepalette/items/resources/Bundle.properties" key="TryCatchPopup.jLabel4.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="tcButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                  <ResourceString bundle="org/netbeans/modules/javasourcefilepalette/items/resources/Bundle.properties" key="TryCatchPopup.tcButton.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                  <ResourceString bundle="org/netbeans/modules/javasourcefilepalette/items/resources/Bundle.properties" key="TryCatchPopup.tcButton.toolTipText" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tcButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel33">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/edu/mass/qcc/qcccodewizard/Question.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+                  <ResourceString bundle="org/netbeans/modules/javasourcefilepalette/items/resources/Bundle.properties" key="TryCatchPopup.jLabel33.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel33MouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

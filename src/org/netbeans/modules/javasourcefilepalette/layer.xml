@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-java">
+                <file name="PaletteFactory.instance">
+                    <attr name="instanceOf" stringvalue="org.netbeans.spi.palette.PaletteController"/>
+                    <attr methodvalue="org.netbeans.modules.javasourcefilepalette.JavaSourceFileLayerPaletteFactory.createPalette" name="instanceCreate"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+
+    <folder name="JavaPalette">
+        <folder name="Objects, Classes, Methods">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.javasourcefilepalette.Bundle"/>
+            <file name="Item.xml" url="items/resources/Item.xml">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.javasourcefilepalette.Bundle"/>
+            </file>
+            
+            <file name="NewClass.xml" url="NewClass.xml"/>
+            <file name="NewMethod.xml" url="NewMethod.xml"/>
+            <file name="NewObject.xml" url="NewObject.xml"/>
+            
+                
+        </folder>
+        <folder name="Variables">
+            <file name="IntegerVar.xml" url="IntegerVar.xml"/>
+            <file name="ShortVar.xml" url="ShortVar.xml"/>
+            <file name="LongVar.xml" url="LongVar.xml"/>
+            <file name="BooleanVar.xml" url="BooleanVar.xml"/>
+            <file name="ByteVar.xml" url="ByteVar.xml"/>
+            <file name="CharVar.xml" url="CharVar.xml"/>
+            <file name="StringVar.xml" url="StringVar.xml"/>
+            <file name="DoubleVar.xml" url="DoubleVar.xml"/>
+            <file name="FloatVar.xml" url="FloatVar.xml"/>
+            <file name="Expression.xml" url="Expression.xml"/>
+            <file name="CharParameter.xml" url="CharParameter.xml"/>
+            
+</folder>
+        
+        <folder name="Decisions">
+            <file name="IfStatementItem.xml" url="IfStatementItem.xml"/>
+            <file name="Else.xml" url="Else.xml"/>
+            <file name="ElseIf.xml" url="ElseIf.xml"/>
+            <file name="SwitchCase.xml" url="SwitchCase.xml"/>
+            <file name="Expression.xml" url="Expression.xml"/>
+</folder>
+        <folder name="Loops">
+            
+            <file name="While.xml" url="While.xml"/>
+            <file name="DoWhile.xml" url="DoWhile.xml"/>
+            <file name="ForEach.xml" url="ForEach.xml"/>
+            <file name="ForLoop.xml" url="ForLoop.xml"/>
+            <file name="Expression.xml" url="Expression.xml"/>     
+        </folder>
+        
+        <folder name="Arrays">
+            <file name="StringArray.xml" url="StringArray.xml"/>
+        </folder>
+        
+        <folder name="Input Output">
+            <file name="PrintConsole.xml" url="PrintConsole.xml"/>
+            <file name="ReadConsole.xml" url="ReadConsole.xml"/>
+            <file name="TryCatch.xml" url="TryCatch.xml"/>
+        </folder> 
+                       
+        <folder name="Comments">
+            <file name="InLineComment.xml" url="InLineComment.xml"/>
+            <file name="FullComment.xml" url="FullComment.xml"/>
+            <file name="JavaDocComment.xml" url="JavaDocComment.xml"/>
+        </folder>
+                
+        <folder name="Student Directory">
+        </folder>
+                 
+        <folder name="Macros">
+            <file name="abitem.xml" url="abitem.xml"/>
+            <file name="forcitem.xml" url="forcitem.xml"/>
+            <file name="foreitem.xml" url="foreitem.xml"/>
+            <file name="foriitem.xml" url="foriitem.xml"/>
+            <file name="newoitem.xml" url="newoitem.xml"/>
+            <file name="serritem.xml" url="serritem.xml"/>
+            <file name="soutitem.xml" url="soutitem.xml"/>
+            <file name="tdsitem.xml" url="tdsitem.xml"/>
+            <file name="twitem.xml" url="twitem.xml"/>
+            <file name="whileititem.xml" url="whileititem.xml"/>
+            <file name="dowhileitem.xml" url="dowhileitem.xml"/>
+        </folder>
+        
+        
+    </folder>
+
+</filesystem>

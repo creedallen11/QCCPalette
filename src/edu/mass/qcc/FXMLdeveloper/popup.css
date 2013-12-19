@@ -1,0 +1,29 @@
+/* 
+    Document   : popup
+    Created on : Jan 19, 2013, 2:30:01 PM
+    Author     : ian
+    Description:
+        This style sheet is for the generic popup that is created
+        for developers by the Snip program.
+*/
+
+root { 
+    display: block;
+}
+.root {
+-fx-background-image: url("background.jpg");
+}
+.label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+

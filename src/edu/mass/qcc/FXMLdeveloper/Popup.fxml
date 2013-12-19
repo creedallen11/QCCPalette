@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-background-color 0xdfdfdfff?>
+
+<AnchorPane id="AnchorPane" minHeight="130.0" prefHeight="236.0" prefWidth="523.0" xmlns:fx="http://javafx.com/fxml" fx:controller="PopupController">
+  <children>
+    <Label fx:id="label" layoutX="49.0" layoutY="10.0" minHeight="16.0" minWidth="69.0" text="Comment:">
+      <font>
+        <Font size="14.0" fx:id="x1" />
+      </font>
+    </Label>
+    <ImageView fx:id="puzzle32" fitHeight="33.0" fitWidth="33.0" layoutX="9.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@Puzzle32.png" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <TextField id="displayNameText" fx:id="commentText" layoutX="110.0" layoutY="7.0" prefWidth="399.0" promptText="Enter a comment for your code." />
+    <TextArea layoutX="110.0" layoutY="56.0" prefHeight="78.0" prefWidth="399.0" text="This Snip generated form allows you to create the interface and logic for your code snippet.  You can alter this form in Scene Builder, or edit the FXML directly in Netbeans.&#10;" wrapText="true" />
+    <Text layoutX="94.0" layoutY="214.0" opacity="0.37" scaleX="3.1169931180518793" scaleY="2.067547723935389" strokeType="OUTSIDE" strokeWidth="0.0" text="Generated using Snip">
+      <font>
+        <Font name="System Bold" size="8.0" />
+      </font>
+    </Text>
+  </children>
+  <stylesheets>
+    <URL value="@popup.css" />
+  </stylesheets>
+</AnchorPane>
